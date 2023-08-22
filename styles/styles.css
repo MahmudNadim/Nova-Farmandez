@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: #7f82df3d;
+}
+
+/* navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 69px 171px 53px 122px;
+}
+
+.nav-title {
+    color: #000;
+    font-family: Leckerli One;
+    font-size: 64px;
+    font-weight: 400;
+    width: 149px;
+    height: 95px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    gap: 53px;
+    margin-top: 150px;
+    margin-left: 133px;
+    margin-right: 135px;
+    padding-bottom: 100px;
+}
+
+.banner-content {}
+
+.banner-title {
+    color: #000;
+    font-family: Lato;
+    font-size: 75px;
+    font-weight: 400;
+    width: 532px;
+}
+
+.ui {
+    color: #050982;
+    font-family: Lato;
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.banner-sub-title {
+    color: #000;
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 700;
+    width: 691px;
+    margin-top: 15px;
+    margin-bottom: 47px;
+}
+
+.banner-text {
+    color: #000;
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 300;
+    width: 744px;
+    margin-bottom: 71px;
+}
+
+.btn {
+    width: 123px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    background: #03087B;
+    color: #FFF;
+    font-family: Lato;
+    font: 90px;
+    font-weight: 400;
+    padding: 10px 12px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.banner-images-content {}
+
+.banner-image {
+    border-radius: 239.5px;
+    background: #131AC4;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.50);
+}
+#img{
+    position: relative;
+    top: 10px;
+}
+.image-sub-title{
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.icons ul{
+    justify-content: space-between;
+    gap: 15px;
+}
+.icons ul a{
+    text-decoration: none;
+    padding-right: 35px;
+}
